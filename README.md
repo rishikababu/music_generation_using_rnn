@@ -21,7 +21,7 @@ Also add datasets by own for training the model.
 - JavaScript, HTML/CSS  
 
 ## 📸 Screenshots
-![Screenshot 2025-05-06 221937](https://github.com/user-attachments/assets/2ace5444-62fd-40d7-993b-422af9ce8a12)
+
 ![Screenshot 2025-05-06 221810](https://github.com/user-attachments/assets/6a886319-74d5-4a21-8551-77c7b2bde3dc)
 ![Screenshot 2025-05-06 221254](https://github.com/user-attachments/assets/54223f24-00f6-45b3-ac89-227212354dd0)
 ![Screenshot 2025-05-06 222702](https://github.com/user-attachments/assets/dd3cb59c-7580-4443-8eb4-21bd099a04b4)
