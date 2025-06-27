@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>AI Music Generator (RNN)</title>
+    <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>🎵 AI Music Generator (RNN) 🎵</h1>
+        <form id="music-form">
+            <label><input type="radio" name="input-type" value="text" checked /> Text Prompt (Used as Seed)</label>
+            <label><input type="radio" name="input-type" value="notes" /> Initial Note Sequence (e.g., C D E G)</label>
+            <textarea id="input-data" rows="4" placeholder="Enter a text prompt or an initial sequence of notes"></textarea>
+            <label>Instrument:</label>
+            <select id="instrument">
+                <option value="Piano">Piano</option>
+                <option value="Violin">Violin</option>
+                <option value="Flute">Flute</option>
+            </select>
+            <label>Style:</label>
+            <select id="style">
+                <option value="Classical">Classical</option>
+                <option value="Jazz">Jazz</option>
+                <option value="Epic">Epic</option>
+            </select>
+            <label>Duration (seconds):</label>
+            <input type="number" id="duration" min="1" value="10" />
+            <button type="submit">Generate Music</button>
+        </form>
+        <div class="player">
+            <audio id="audio" controls></audio><br />
+            <a id="download" href="#" download="music.mid">⬇️ Download MIDI</a>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
